@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css" type="text/css"></link>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+        <title>Pattern</title>
+    </head>
+    <body>
+        <header>
+        </header>
+        <div class="d-flex flex-column fixed-top">
+            <div id="header_title">
+                <a href="index.html" id="header_title-header" class="align-self-center header_title-links"><i class="fa fa-globe" aria-hidden="true"></i>What's On?</a>
+                <a href="" id="login" class="header_title-links">Log In</a>
+                <div id="events-listing">
+                    <a href="" class="header_title-links">List your events for free</a>
+                </div>
+            </div>  
+            <div id="navBarCollapse">
+                <nav class="navbar navbar-nav">
+                    <ul class="navbar-nav d-flex flex-sm-column flex-md-row justify-content-center">
+                        <li class="nav-item mx-5">
+                            <a class="nav-link">Filter By</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link">Things To Do</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link">When</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link">Where</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link">More</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link">Search</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <main>
+            <div class="text-center" id="covid-19">
+                <p class="lead">COVID-19: Here's what you can and can't do</p>
+            </div>
+            <div class="container" id="main-container">
+                <div class="row main-rows">
+                    <div class="col-12">
+                        Up Next
+                        <h2 class="display-4">What's On This Week</h2>
+                    </div>
+                </div>
+                <!-- Main Events Row -->
+                <div class="row main-rows">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/fireworks.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Entertainment</p>
+                                <a class="card-title">
+                                    <p>Fireworks at BB&T Ballpark</p>
+                                </a>
+                                <p class="card-text">Tonight at 9:30 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/fair.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Family Entertainment</p>
+                                <a class="card-title">
+                                    <p>Charlotte Fair</p>
+                                </a>
+                            <p class="card-text">
+                                Fridays, Saturdays & Sundays 6pm - 10pm
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/concert.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Music Entertainment</p>
+                                <a class="card-title">
+                                    <p>Music Festival At The Museum</p>
+                                </a>
+                            <p class="card-text">
+                                Saturday at 8pm
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Food Row -->
+                <h1 class="display-5">Upcoming Food Events</h1>
+                <div class="row main-rows">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/food-1.png" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Food & Drinks</p>
+                                <a class="card-title">
+                                    <p>Sycamore Brewing Food Truck</p>
+                                </a>
+                                <p class="card-text">Fridays 5-10pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/food-2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Food & Drinks</p>
+                                <a class="card-title">
+                                    <p>Best Burgers in Charlotte</p>
+                                </a>
+                            <a class="card-text">
+                                <p>Click Here for Top 5</p>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/food-3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">New Restaurants / Bar</p>
+                                <a class="card-title">
+                                    <p>Charlotte Beer Garden</p>
+                                </a>
+                            <p class="card-text">
+                                Monday - Sunday: 3pm - 11pm
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ad Row 1 -->
+                <div class="row main-rows">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="imgs/festival.jpg" class="img-fluid"> 
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <h1>Pineville Summer Festival</h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sports Row -->
+                Featured Category
+                <h2 class="display-5">Sports</h2>
+                <div class="row main-rows">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/hockey.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Sports & Fitness</p>
+                                <a class="card-title">
+                                    <p>Charlotte Checkers Game</p>
+                                </a>
+                                <p class="card-text">Thursday 7pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/jogging.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Sports & Fitness</p>
+                                <a class="card-title">
+                                    <p>Uptown Charlotte 5K</p>
+                                </a>
+                            <p class="card-text">
+                                Saturday 7am
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/flag-football.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Sports & Fitness</p>
+                                <a class="card-title">
+                                    <p>Pickup Flag Football</p>
+                                </a>
+                            <p class="card-text">
+                                Saturday 8:30am
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Music Row -->
+                <h1 class="display-5">Upcoming Live Music Events and Concerts</h1>
+                <div class="row main-rows">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/metro-concert.jpg" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Outside Music Events</p>
+                                <a class="card-title">
+                                    <p>Charlotte Metro Amphitheater Concert</p>
+                                </a>
+                                <p class="card-text">Wednesday 6:30pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="imgs/music-factory.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Outside Music Events</p>
+                                <a class="card-title">
+                                    <p>AvidXchange Music Factory Live Music</p>
+                                </a>
+                            <p class="card-text">
+                                Sunday 6pm
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">  
+                        <div class="card">
+                            <img src="imgs/pavillion-concert.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-body__sub-category">Music Entertainment</p>
+                                <a class="card-title">
+                                    <p>PNC Music Pavillion Concert</p>
+                                </a>
+                            <p class="card-text">
+                                Wednesday 6:30pm
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="d-flex flex-column align-items-center">
+            <div class="footer-flex-divs">
+                <h1 class="text-center" id="footer-header">Discover the best events Charlotte has to offer</h1> 
+                <button type="button" class="btn btn-primary btn-sm">Subscribe to our newsletter</button>
+            </div>
+            <div class="footer-flex-divs align-self-start d-flex">
+                <h1 style="margin-right: 6rem">City of Charlotte</h1>
+                <div class="d-flex">
+                    <div>
+                        <ul class="footer-nav">
+                            <li>About</li>
+                            <li>Disclaimer</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer-nav">
+                            <li>Listing Guide</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer-nav">
+                            <li>Suburbs</li>
+                            <li>Privacy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="margin-left: 6rem;">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-youtube fa-2x"></i>
+                    <i class="fab fa-twitter fa-2x"></i>
+                    <i class="fab fa-reddit fa-2x"></i>
+                </div>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
