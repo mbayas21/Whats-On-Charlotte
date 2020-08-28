@@ -24,11 +24,11 @@ header {
 footer {
   background-color: #041c2c;
   color: white;
-  padding: 6rem;
+  padding: 2rem;
 }
 
 footer div:nth-child(1) {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 /************************* CLASS SELECTORS *************************/
@@ -60,7 +60,8 @@ footer div:nth-child(1) {
 }
 
 .footer-flex-divs{
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-nav {
